@@ -27,9 +27,6 @@ function App() {
         <div className="hero-orb hero-orb-b"></div>
         <div className="container">
           <div>
-            <div className="hero-badge">
-              <span className="dot"></span> Launching soon in Qatar
-            </div>
             <h1>
               Your health companion
               <br />
