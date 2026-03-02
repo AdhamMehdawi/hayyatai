@@ -495,7 +495,7 @@ function App() {
             among the first.
           </p>
           <a
-            href="mailto:mehdawiadham@gmail.com?subject=Hayyat%20Waitlist&body=I'd%20like%20to%20join%20the%20Hayyat%20waitlist."
+            href="mailto:info@hayyat.ai?subject=Hayyat%20Waitlist&body=I'd%20like%20to%20join%20the%20Hayyat%20waitlist."
             className="pill pill-primary"
             style={{ fontSize: "0.95rem", padding: "0.75rem 2.2rem" }}
           >
@@ -517,16 +517,8 @@ function App() {
       <footer>
         <div className="footer-inner">
           <div className="footer-l">
-            &copy; 2026 Hayyat AI &middot; Founded by{" "}
-            <a
-              href="https://linkedin.com/in/adham-mehdawi-02a9a64a"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Adham Mehdawi
-            </a>{" "}
-            &middot;{" "}
-            <a href="mailto:mehdawiadham@gmail.com">Contact</a>
+            &copy; 2026 Hayyat AI &middot; Founded by Hayyat Team &middot;{" "}
+            <a href="mailto:info@hayyat.ai">Contact</a>
           </div>
           <div className="footer-r">
             <a href="#">Privacy</a>
