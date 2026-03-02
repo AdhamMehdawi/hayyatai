@@ -28,7 +28,7 @@ function App() {
         <div className="container">
           <div>
             <div className="hero-badge">
-              <span className="dot"></span> Now accepting early members in Qatar
+              <span className="dot"></span> Launching soon in Qatar
             </div>
             <h1>
               Your health companion
