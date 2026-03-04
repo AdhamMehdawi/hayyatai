@@ -1,0 +1,282 @@
+{
+  "nav": {
+    "logo": "Hayyat",
+    "home": "Home",
+    "conditions": "Conditions",
+    "knowYourBody": "Health Library",
+    "howItWorks": "How It Works",
+    "yourCare": "Your Care",
+    "stories": "Stories",
+    "joinWaitlist": "Join the Waitlist"
+  },
+  "hero": {
+    "title": "Your health companion",
+    "titleEmphasized": "that speaks your language.",
+    "subtitle": "Hayyat helps you understand your body, screen for PCOS & Endometriosis, and walk into your doctor's office prepared — all in Gulf Arabic, on your phone.",
+    "tagline": "Hayyat — because you deserve to be heard",
+    "ctaPrimary": "Join the Waitlist →",
+    "ctaSecondary": "See How It Works",
+    "chatWelcome": "هلا 💛 قوليلي كيف حالك هالفترة؟ صوت أو كتابة — عادي، كلميني بالعربي.",
+    "chatUser1": "والله من زمان عندي ألم وقت الدورة بس أمي قالت عادي",
+    "chatAi2": "الألم اللي يوقف يومك مو شي لازم تتقبلينه. قوليلي أكثر؟",
+    "chatChip1": "⚠️ تم رصد تطبيع الألم",
+    "chatUser2": "وبشرتي صارت حبوب كثير وشعري يطيح",
+    "chatAi3": "سجّلت تغيرات البشرة وتساقط الشعر — خلينا نتأكد إن دكتورك يشوف الصورة كاملة.",
+    "chatChip2": "✓ تم تسجيل ٥ أعراض"
+  },
+  "understand": {
+    "quoteAr": "كل البنات كذا... عادي",
+    "quoteEn": "All girls are like this... it's normal.",
+    "description": "You've heard this from your mother, your aunt, maybe even your doctor. You bought painkillers every month. You thought the fatigue was just stress. What if someone told you it isn't normal — and helped you find out why?"
+  },
+  "conditions": {
+    "label": "WE CAN HELP",
+    "title": "Struggling with symptoms",
+    "titleLine2": "no one takes seriously?",
+    "subtitle": "You're not imagining it. Hayyat screens for the conditions behind your symptoms — conditions that take years to diagnose in the Gulf.",
+    "tags": {
+      "pcos": "PCOS",
+      "endometriosis": "Endometriosis",
+      "painfulPeriods": "Painful Periods",
+      "heavyBleeding": "Heavy Bleeding",
+      "irregularCycles": "Irregular Cycles",
+      "hormonalAcne": "Hormonal Acne",
+      "excessHair": "Excess Hair Growth",
+      "chronicFatigue": "Chronic Fatigue",
+      "pelvicPain": "Pelvic Pain",
+      "weightChanges": "Weight Changes",
+      "hairLoss": "Hair Loss",
+      "moodSwings": "Mood Swings",
+      "bloating": "Bloating",
+      "fertilityConcerns": "Fertility Concerns"
+    },
+    "stats": {
+      "stat1Number": "1 in 5",
+      "stat1Text": "Gulf women affected by PCOS — the highest rate in the world",
+      "stat2Number": "73%",
+      "stat2Text": "of women were told their pain is \"just cramps\" by family or a doctor",
+      "stat3Number": "11+ years",
+      "stat3Text": "the average time it takes to get an endometriosis diagnosis in the Arab world"
+    },
+    "botheredTitle": "Not sure what's wrong, but you know ",
+    "botheredTitleEmphasized": "something",
+    "botheredTitleEnd": " is?",
+    "botheredText": "That's exactly who Hayyat is for."
+  },
+  "learnConditions": {
+    "label": "KNOWLEDGE IS POWER",
+    "title": "Understanding your body starts here.",
+    "subtitle": "Learn about the conditions we screen for, their symptoms, and what you need to know.",
+    "pcos": {
+      "title": "Polycystic Ovary Syndrome (PCOS)",
+      "titleAr": "متلازمة تكيّس المبايض",
+      "description": "PCOS is a hormonal disorder affecting 1 in 5 women in the Gulf region. It occurs when the ovaries produce abnormal amounts of androgens (male hormones), leading to irregular periods, cysts on the ovaries, and various metabolic symptoms.",
+      "symptomsTitle": "🔍 Common Symptoms",
+      "symptoms": [
+        "Irregular or missed periods",
+        "Excess facial or body hair (hirsutism)",
+        "Severe acne or oily skin",
+        "Weight gain, especially around the abdomen",
+        "Thinning hair or hair loss",
+        "Dark patches of skin (acanthosis nigricans)",
+        "Difficulty getting pregnant",
+        "Mood changes or depression"
+      ],
+      "riskFactorsTitle": "⚠️ Risk Factors",
+      "riskFactors": [
+        "Family history of PCOS",
+        "Insulin resistance or diabetes",
+        "Obesity or rapid weight gain",
+        "High levels of inflammation",
+        "Genetic predisposition"
+      ],
+      "treatmentTitle": "💊 Treatment Options",
+      "treatment": [
+        "Birth control pills to regulate periods",
+        "Metformin for insulin resistance",
+        "Anti-androgen medications",
+        "Lifestyle changes (diet & exercise)",
+        "Fertility treatments if needed",
+        "Treatment for excess hair growth"
+      ],
+      "whenToDoctorTitle": "🩺 When to See a Doctor",
+      "whenToDoctor": [
+        "Missed periods for 3+ months",
+        "Difficulty getting pregnant after 1 year",
+        "Excessive hair growth or hair loss",
+        "Severe acne that won't improve",
+        "Unexplained weight gain"
+      ]
+    },
+    "endometriosis": {
+      "title": "Endometriosis",
+      "titleAr": "انتباذ بطانة الرحم",
+      "description": "Endometriosis is a condition where tissue similar to the uterine lining grows outside the uterus. This tissue responds to hormonal changes during your menstrual cycle, causing pain, inflammation, and sometimes fertility issues. It takes an average of 11+ years to diagnose in the Arab world.",
+      "symptomsTitle": "🔍 Common Symptoms",
+      "symptoms": [
+        "Severe menstrual cramps (dysmenorrhea)",
+        "Chronic pelvic pain",
+        "Pain during or after intercourse",
+        "Heavy or irregular bleeding",
+        "Pain during bowel movements or urination",
+        "Fatigue and low energy",
+        "Bloating and digestive issues",
+        "Difficulty getting pregnant"
+      ],
+      "riskFactorsTitle": "⚠️ Risk Factors",
+      "riskFactors": [
+        "Family history of endometriosis",
+        "Never having given birth",
+        "Starting periods at an early age",
+        "Short menstrual cycles",
+        "Heavy periods lasting more than 7 days",
+        "Low body mass index (BMI)"
+      ],
+      "treatmentTitle": "💊 Treatment Options",
+      "treatment": [
+        "Pain medications (NSAIDs)",
+        "Hormonal contraceptives",
+        "Gonadotropin-releasing hormone (GnRH) agonists",
+        "Laparoscopic surgery to remove tissue",
+        "Fertility treatments if needed",
+        "Complementary therapies (heat, TENS)"
+      ],
+      "whenToDoctorTitle": "🩺 When to See a Doctor",
+      "whenToDoctor": [
+        "Pain that disrupts daily activities",
+        "Pain medications don't help anymore",
+        "Heavy bleeding that soaks through pads",
+        "Trying to conceive for 6+ months",
+        "Severe fatigue affecting your life"
+      ]
+    },
+    "otherTitle": "Other Conditions We Help Screen For",
+    "other": {
+      "painful": {
+        "title": "Painful Periods (Dysmenorrhea)",
+        "description": "Severe menstrual cramps that interfere with daily activities. Often dismissed as \"normal\" but can indicate underlying conditions."
+      },
+      "heavy": {
+        "title": "Heavy Menstrual Bleeding (Menorrhagia)",
+        "description": "Excessive bleeding during periods that requires changing pads or tampons every 1-2 hours, or lasts longer than 7 days."
+      },
+      "irregular": {
+        "title": "Irregular Menstrual Cycles",
+        "description": "Unpredictable periods, cycles shorter than 21 days or longer than 35 days, or significant variation month to month."
+      },
+      "hormonal": {
+        "title": "Hormonal Imbalances",
+        "description": "Disruptions in hormone levels causing acne, weight changes, mood swings, or excessive hair growth."
+      }
+    }
+  },
+  "how": {
+    "label": "HOW IT WORKS",
+    "title": "Three steps. One conversation.",
+    "titleLine2": "In your Arabic.",
+    "step1Title": "Talk to Hayyat",
+    "step1Ar": "تكلّمي بالعربي",
+    "step1Description": "Open the app and just talk — voice or text, in Gulf Arabic. No forms. No English. No awkward clinic questions. Hayyat understands your dialect and gently guides the conversation.",
+    "step2Title": "Get Your Report",
+    "step2Ar": "تقرير طبي لك ولدكتورك",
+    "step2Description": "Hayyat uses published medical criteria — the same ones doctors use — to create a clear summary of your symptoms and risk level. One report for you in Arabic, one for your doctor in Arabic and English.",
+    "step3Title": "Walk In Prepared",
+    "step3Ar": "ادخلي العيادة وأنتِ جاهزة",
+    "step3Description": "Show your doctor a 2-page brief with everything they need. No more forgetting symptoms. No more being dismissed. After your visit, Hayyat helps you understand what the doctor said — in plain Arabic.",
+    "note": "No downloads from the app store. Just open it on your phone."
+  },
+  "care": {
+    "label": "YOUR CARE COMPANION",
+    "title": "We stay with you — before,",
+    "titleLine2": "during, and after the doctor.",
+    "subtitle": "Most health apps stop at tracking. Hayyat walks with you through the whole journey.",
+    "preVisit": {
+      "title": "Pre-Visit Brief",
+      "description": "Your doctor gets a clear summary of your symptoms and history — so you don't have to repeat yourself or forget anything."
+    },
+    "translator": {
+      "title": "Doctor Translator",
+      "description": "The doctor said \"hyperandrogenism.\" Hayyat tells you: your body is making too many male hormones, and that's what's causing your symptoms."
+    },
+    "medication": {
+      "title": "Medication Guide",
+      "description": "What each pill does, when to take it, what to expect. Ramadan-adjusted timing. A daily WhatsApp check-in: did you take it today?"
+    },
+    "stopCheck": {
+      "title": "If You Stop, We Ask Why",
+      "description": "Stopped your meds? We don't just remind — we ask: nausea? cost? Ramadan fasting? Each answer gets a real solution, not another ping."
+    },
+    "family": {
+      "title": "Family Messages",
+      "description": "Need help explaining your condition to your family? Hayyat creates WhatsApp-ready messages — clear, simple, zero stigma."
+    },
+    "missedAppointment": {
+      "title": "Missed Appointment?",
+      "description": "Life happens. We check in gently, figure out what got in the way, and help you reschedule when you're ready."
+    }
+  },
+  "built": {
+    "label": "BUILT FOR YOU",
+    "title": "For Gulf women. In Gulf Arabic.",
+    "titleLine2": "Because your health experience should feel like home.",
+    "realArabic": {
+      "title": "🗣️ Your Real Arabic",
+      "description": "Not formal Arabic. Not English-first. Hayyat speaks Gulf Arabic — Khaleeji, Najdi, Hejazi — the way you talk at home with your sisters."
+    },
+    "ramadan": {
+      "title": "🌙 Ramadan Aware",
+      "description": "Medication timing moves to Suhoor and Iftar. Symptoms are read in the context of fasting. Your health doesn't pause — and neither do we."
+    },
+    "privacy": {
+      "title": "🔒 Private. Always.",
+      "description": "Photos deleted after processing. Voice deleted after transcription. Data stays in the Gulf, encrypted. You can erase everything in one tap. We'll never share your information."
+    }
+  },
+  "stories": {
+    "label": "WOMEN LIKE YOU",
+    "title": "Don't just take our word for it.",
+    "subtitle": "Stories from the women who inspired Hayyat.",
+    "story1": {
+      "quote": "I spent 8 years thinking my pain was normal because my mother had the same pain. If someone had asked me the right questions — in Arabic — I would have known years earlier.",
+      "name": "Noura, 29",
+      "location": "Doha, Qatar"
+    },
+    "story2": {
+      "quote": "My patients visit 5 doctors before someone connects their symptoms. A pre-visit brief that shows the full picture? That would change everything for my clinic.",
+      "name": "Dr. Fatima",
+      "location": "OB/GYN, Hamad Medical"
+    },
+    "story3": {
+      "quote": "I stopped my medication because of the nausea but was too embarrassed to tell my doctor. If something had asked me why and given me a solution, I would have kept going.",
+      "name": "Sara, 34",
+      "location": "Riyadh, Saudi Arabia"
+    }
+  },
+  "trusted": {
+    "title": "Backed by Research & Accelerators",
+    "items": {
+      "qstp": "QSTP Qatar",
+      "merck": "Merck FemTech",
+      "rotterdam": "Rotterdam Criteria",
+      "chapron": "Chapron Scoring",
+      "dataset": "886-Patient Dataset"
+    }
+  },
+  "finalCta": {
+    "phone1": "Talk",
+    "phone2": "Learn",
+    "phone3": "Heal",
+    "title": "Ready to be heard?",
+    "subtitle": "حيّاة تسمعك",
+    "description": "We're launching our first pilot in Qatar. Join the waitlist to be among the first.",
+    "cta": "Join the Waitlist →",
+    "note": "Free. No credit card. We'll reach out when it's your turn."
+  },
+  "footer": {
+    "copyright": "© 2026 Hayyat AI · Founded by Hayyat Team ·",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "linkedin": "LinkedIn"
+  }
+}

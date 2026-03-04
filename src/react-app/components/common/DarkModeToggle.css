@@ -1,0 +1,49 @@
+.dark-mode-toggle {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--wine);
+  border: none;
+  color: var(--white);
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(109, 46, 70, 0.3);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.dark-mode-toggle:hover {
+  background: var(--berry);
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(109, 46, 70, 0.4);
+}
+
+.dark-mode-toggle:active {
+  transform: scale(0.95);
+}
+
+[data-theme="dark"] .dark-mode-toggle {
+  background: var(--gold);
+  box-shadow: 0 4px 12px rgba(212, 149, 106, 0.3);
+}
+
+[data-theme="dark"] .dark-mode-toggle:hover {
+  background: #E0A978;
+  box-shadow: 0 6px 20px rgba(212, 149, 106, 0.4);
+}
+
+@media (max-width: 860px) {
+  .dark-mode-toggle {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 48px;
+    height: 48px;
+    font-size: 1.3rem;
+  }
+}
