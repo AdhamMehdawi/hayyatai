@@ -34,6 +34,11 @@
     "title": "Struggling with symptoms",
     "titleLine2": "no one takes seriously?",
     "subtitle": "You're not imagining it. Hayyat screens for the conditions behind your symptoms — conditions that take years to diagnose in the Gulf.",
+    "groupTitles": {
+      "primary": "Primary Conditions",
+      "commonSymptoms": "Common Symptoms",
+      "hormonalSymptoms": "Hormonal Symptoms"
+    },
     "tags": {
       "pcos": "PCOS",
       "endometriosis": "Endometriosis",
@@ -53,10 +58,13 @@
     "stats": {
       "stat1Number": "1 in 5",
       "stat1Text": "Gulf women affected by PCOS — the highest rate in the world",
+      "stat1Label": "PCOS Prevalence",
       "stat2Number": "73%",
       "stat2Text": "of women were told their pain is \"just cramps\" by family or a doctor",
+      "stat2Label": "Pain Dismissed",
       "stat3Number": "11+ years",
-      "stat3Text": "the average time it takes to get an endometriosis diagnosis in the Arab world"
+      "stat3Text": "the average time it takes to get an endometriosis diagnosis in the Arab world",
+      "stat3Label": "Diagnosis Delay"
     },
     "botheredTitle": "Not sure what's wrong, but you know ",
     "botheredTitleEmphasized": "something",
