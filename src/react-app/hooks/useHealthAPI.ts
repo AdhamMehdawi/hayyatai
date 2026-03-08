@@ -28,7 +28,8 @@ interface Condition {
 	title_ar: string;
 	description_en: string;
 	description_ar: string;
-	prevalence_stat: string;
+	prevalence_stat_en: string;
+	prevalence_stat_ar: string;
 	symptoms: Symptom[];
 	risk_factors: RiskFactor[];
 	treatments: Treatment[];
@@ -42,7 +43,8 @@ interface ConditionListItem {
 	title_ar: string;
 	description_en: string;
 	description_ar: string;
-	prevalence_stat: string;
+	prevalence_stat_en: string;
+	prevalence_stat_ar: string;
 }
 
 interface SymptomItem {

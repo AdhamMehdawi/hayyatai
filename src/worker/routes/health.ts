@@ -13,7 +13,8 @@ health.get("/conditions", (c) => {
 			title_ar: condition.title_ar,
 			description_en: condition.description_en,
 			description_ar: condition.description_ar,
-			prevalence_stat: condition.prevalence_stat,
+			prevalence_stat_en: condition.prevalence_stat_en,
+			prevalence_stat_ar: condition.prevalence_stat_ar,
 		}));
 
 		return c.json({
