@@ -15,7 +15,7 @@ function Button({
   href,
   onClick,
   variant = 'primary',
-  size = 'medium',
+  size: _size = 'medium',
   className = '',
   style
 }: ButtonProps) {

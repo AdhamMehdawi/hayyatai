@@ -1,6 +1,16 @@
 import { Hono } from "hono";
-const app = new Hono<{ Bindings: Env }>();
+import { cors } from "hono/cors";
+import health from "./routes/health";
 
-app.get("/api/", (c) => c.json({ name: "Cloudflare" }));
+const app = new Hono();
+
+// Enable CORS for API routes
+app.use("/api/*", cors());
+
+// Health routes
+app.route("/api/health", health);
+
+// Health check endpoint
+app.get("/api/", (c) => c.json({ name: "Hayyat API", version: "1.0.0", status: "healthy" }));
 
 export default app;

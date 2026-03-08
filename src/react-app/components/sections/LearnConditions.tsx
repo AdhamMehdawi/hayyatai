@@ -1,159 +1,98 @@
 import { useTranslation } from 'react-i18next';
+import { useCondition } from '../../hooks/useHealthAPI';
+import CompactConditionCard from '../health/CompactConditionCard';
 
 function LearnConditions() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isArabic = i18n.language === 'ar';
+
+  // Fetch both conditions
+  const { condition: pcosCondition, loading: pcosLoading, error: pcosError } = useCondition('pcos');
+  const { condition: endoCondition, loading: endoLoading, error: endoError } = useCondition('endometriosis');
+
+  const loading = pcosLoading || endoLoading;
+  const error = pcosError || endoError;
 
   return (
     <section className="learn-conditions" id="learn-conditions">
       <div className="container">
-        <div className="sec-label" style={{ color: "var(--wine)" }}>
-          {t('learnConditions.label')}
-        </div>
-        <div
-          className="sec-title"
-          style={{ fontSize: "clamp(1.8rem, 3vw, 2.4rem)" }}
-        >
-          {t('learnConditions.title')}
-        </div>
-        <p
-          style={{
-            color: "var(--rose)",
-            fontSize: "0.95rem",
-            maxWidth: 520,
-            marginBottom: "3rem",
-          }}
-        >
-          {t('learnConditions.subtitle')}
-        </p>
-
-        {/* PCOS */}
-        <div className="condition-detail">
-          <div className="cond-header">
-            <h3>{t('learnConditions.pcos.title')}</h3>
-            <div className="cond-ar">{t('learnConditions.pcos.titleAr')}</div>
+        {/* Header */}
+        <div className="health-library-header">
+          <div className="sec-label" style={{ color: "var(--wine)" }}>
+            {t('learnConditions.label')}
           </div>
-          <p className="cond-desc">
-            {t('learnConditions.pcos.description')}
+          <div
+            className="sec-title"
+            style={{ fontSize: "clamp(1.8rem, 3vw, 2.4rem)" }}
+          >
+            {t('learnConditions.title')}
+          </div>
+          <p className="sec-subtitle">
+            {t('learnConditions.subtitle')}
           </p>
-
-          <div className="cond-details-grid">
-            <div className="detail-card">
-              <h4>{t('learnConditions.pcos.symptomsTitle')}</h4>
-              <ul>
-                {(t('learnConditions.pcos.symptoms', { returnObjects: true }) as string[]).map((symptom, index) => (
-                  <li key={index}>{symptom}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="detail-card">
-              <h4>{t('learnConditions.pcos.riskFactorsTitle')}</h4>
-              <ul>
-                {(t('learnConditions.pcos.riskFactors', { returnObjects: true }) as string[]).map((factor, index) => (
-                  <li key={index}>{factor}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="detail-card">
-              <h4>{t('learnConditions.pcos.treatmentTitle')}</h4>
-              <ul>
-                {(t('learnConditions.pcos.treatment', { returnObjects: true }) as string[]).map((treatment, index) => (
-                  <li key={index}>{treatment}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="detail-card">
-              <h4>{t('learnConditions.pcos.whenToDoctorTitle')}</h4>
-              <ul>
-                {(t('learnConditions.pcos.whenToDoctor', { returnObjects: true }) as string[]).map((when, index) => (
-                  <li key={index}>{when}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
         </div>
 
-        {/* ENDOMETRIOSIS */}
-        <div className="condition-detail">
-          <div className="cond-header">
-            <h3>{t('learnConditions.endometriosis.title')}</h3>
-            <div className="cond-ar">{t('learnConditions.endometriosis.titleAr')}</div>
+        {/* Loading State */}
+        {loading && (
+          <div className="health-loading">
+            <div className="loader">
+              <div className="loader-pulse"></div>
+              <div className="loader-pulse"></div>
+              <div className="loader-pulse"></div>
+            </div>
+            <p>{isArabic ? 'جاري التحميل...' : 'Loading...'}</p>
           </div>
-          <p className="cond-desc">
-            {t('learnConditions.endometriosis.description')}
-          </p>
+        )}
 
-          <div className="cond-details-grid">
-            <div className="detail-card">
-              <h4>{t('learnConditions.endometriosis.symptomsTitle')}</h4>
-              <ul>
-                {(t('learnConditions.endometriosis.symptoms', { returnObjects: true }) as string[]).map((symptom, index) => (
-                  <li key={index}>{symptom}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="detail-card">
-              <h4>{t('learnConditions.endometriosis.riskFactorsTitle')}</h4>
-              <ul>
-                {(t('learnConditions.endometriosis.riskFactors', { returnObjects: true }) as string[]).map((factor, index) => (
-                  <li key={index}>{factor}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="detail-card">
-              <h4>{t('learnConditions.endometriosis.treatmentTitle')}</h4>
-              <ul>
-                {(t('learnConditions.endometriosis.treatment', { returnObjects: true }) as string[]).map((treatment, index) => (
-                  <li key={index}>{treatment}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="detail-card">
-              <h4>{t('learnConditions.endometriosis.whenToDoctorTitle')}</h4>
-              <ul>
-                {(t('learnConditions.endometriosis.whenToDoctor', { returnObjects: true }) as string[]).map((when, index) => (
-                  <li key={index}>{when}</li>
-                ))}
-              </ul>
-            </div>
+        {/* Error State */}
+        {error && !loading && (
+          <div className="health-error">
+            <div className="error-icon">⚠️</div>
+            <h3>{isArabic ? 'عذراً، حدث خطأ' : 'Sorry, an error occurred'}</h3>
+            <p>{error}</p>
+            <button
+              className="retry-button"
+              onClick={() => window.location.reload()}
+            >
+              {isArabic ? 'إعادة المحاولة' : 'Try Again'}
+            </button>
           </div>
-        </div>
+        )}
 
-        {/* OTHER CONDITIONS */}
-        <div className="other-conditions">
-          <h3>{t('learnConditions.otherTitle')}</h3>
-          <div className="other-grid">
-            <div className="other-card">
-              <h4>{t('learnConditions.other.painful.title')}</h4>
+        {/* Conditions List - Compact Style */}
+        {!loading && !error && (
+          <div className="compact-layout">
+            {pcosCondition && <CompactConditionCard condition={pcosCondition} />}
+            {endoCondition && <CompactConditionCard condition={endoCondition} />}
+          </div>
+        )}
+
+        {/* Educational Footer */}
+        {!loading && !error && (
+          <div className="health-footer">
+            <div className="footer-card">
+              <div className="footer-icon">📚</div>
+              <h4>{isArabic ? 'هل تريدين معرفة المزيد؟' : 'Want to Learn More?'}</h4>
               <p>
-                {t('learnConditions.other.painful.description')}
+                {isArabic
+                  ? 'حيّاة هنا لمساعدتك على فهم جسمك والتحدث مع طبيبك بثقة.'
+                  : 'Hayyat is here to help you understand your body and speak to your doctor with confidence.'
+                }
               </p>
             </div>
-            <div className="other-card">
-              <h4>{t('learnConditions.other.heavy.title')}</h4>
+
+            <div className="footer-card">
+              <div className="footer-icon">💛</div>
+              <h4>{isArabic ? 'أنتِ لستِ وحدك' : "You're Not Alone"}</h4>
               <p>
-                {t('learnConditions.other.heavy.description')}
-              </p>
-            </div>
-            <div className="other-card">
-              <h4>{t('learnConditions.other.irregular.title')}</h4>
-              <p>
-                {t('learnConditions.other.irregular.description')}
-              </p>
-            </div>
-            <div className="other-card">
-              <h4>{t('learnConditions.other.hormonal.title')}</h4>
-              <p>
-                {t('learnConditions.other.hormonal.description')}
+                {isArabic
+                  ? 'الملايين من النساء في الخليج يعانين من هذه الحالات. أعراضك حقيقية وتستحقين الرعاية.'
+                  : 'Millions of women in the Gulf deal with these conditions. Your symptoms are real and you deserve care.'
+                }
               </p>
             </div>
           </div>
-        </div>
+        )}
       </div>
     </section>
   );

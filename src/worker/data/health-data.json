@@ -1,0 +1,339 @@
+{
+  "conditions": [
+    {
+      "id": 1,
+      "slug": "pcos",
+      "title_en": "Polycystic Ovary Syndrome (PCOS)",
+      "title_ar": "متلازمة تكيّس المبايض",
+      "description_en": "PCOS is a hormonal disorder affecting 1 in 5 women in the Gulf region. It occurs when the ovaries produce abnormal amounts of androgens (male hormones), leading to irregular periods, cysts on the ovaries, and various metabolic symptoms.",
+      "description_ar": "متلازمة تكيس المبايض هي اضطراب هرموني يؤثر على 1 من كل 5 نساء في منطقة الخليج. تحدث عندما تنتج المبايض كميات غير طبيعية من الأندروجينات (الهرمونات الذكرية)، مما يؤدي إلى عدم انتظام الدورة الشهرية، وتكيسات على المبايض، وأعراض استقلابية مختلفة.",
+      "prevalence_stat_en": "1 in 5 Gulf women",
+      "prevalence_stat_ar": "١ من كل ٥ نساء خليجيات",
+      "symptoms": [
+        {
+          "name_en": "Irregular or missed periods",
+          "name_ar": "دورات شهرية غير منتظمة أو غائبة"
+        },
+        {
+          "name_en": "Excess facial or body hair (hirsutism)",
+          "name_ar": "شعر زائد في الوجه أو الجسم"
+        },
+        {
+          "name_en": "Severe acne or oily skin",
+          "name_ar": "حب شباب شديد أو بشرة دهنية"
+        },
+        {
+          "name_en": "Weight gain, especially around the abdomen",
+          "name_ar": "زيادة الوزن، خاصة حول البطن"
+        },
+        {
+          "name_en": "Thinning hair or hair loss",
+          "name_ar": "شعر رقيق أو تساقط الشعر"
+        },
+        {
+          "name_en": "Dark patches of skin (acanthosis nigricans)",
+          "name_ar": "بقع داكنة من الجلد"
+        },
+        {
+          "name_en": "Difficulty getting pregnant",
+          "name_ar": "صعوبة في الحمل"
+        },
+        {
+          "name_en": "Mood changes or depression",
+          "name_ar": "تغيرات في المزاج أو اكتئاب"
+        }
+      ],
+      "risk_factors": [
+        {
+          "text_en": "Family history of PCOS",
+          "text_ar": "تاريخ عائلي لمتلازمة تكيس المبايض"
+        },
+        {
+          "text_en": "Insulin resistance or diabetes",
+          "text_ar": "مقاومة الأنسولين أو السكري"
+        },
+        {
+          "text_en": "Obesity or rapid weight gain",
+          "text_ar": "السمنة أو زيادة الوزن السريعة"
+        },
+        {
+          "text_en": "High levels of inflammation",
+          "text_ar": "مستويات عالية من الالتهاب"
+        },
+        {
+          "text_en": "Genetic predisposition",
+          "text_ar": "الاستعداد الوراثي"
+        }
+      ],
+      "treatments": [
+        {
+          "text_en": "Birth control pills to regulate periods",
+          "text_ar": "حبوب منع الحمل لتنظيم الدورة الشهرية"
+        },
+        {
+          "text_en": "Metformin for insulin resistance",
+          "text_ar": "ميتفورمين لمقاومة الأنسولين"
+        },
+        {
+          "text_en": "Anti-androgen medications",
+          "text_ar": "أدوية مضادة للأندروجين"
+        },
+        {
+          "text_en": "Lifestyle changes (diet & exercise)",
+          "text_ar": "تغييرات نمط الحياة (النظام الغذائي والتمارين)"
+        },
+        {
+          "text_en": "Fertility treatments if needed",
+          "text_ar": "علاجات الخصوبة عند الحاجة"
+        },
+        {
+          "text_en": "Treatment for excess hair growth",
+          "text_ar": "علاج لنمو الشعر الزائد"
+        }
+      ],
+      "when_to_doctor": [
+        {
+          "text_en": "Missed periods for 3+ months",
+          "text_ar": "غياب الدورة الشهرية لمدة 3 أشهر أو أكثر"
+        },
+        {
+          "text_en": "Difficulty getting pregnant after 1 year",
+          "text_ar": "صعوبة الحمل بعد سنة واحدة"
+        },
+        {
+          "text_en": "Excessive hair growth or hair loss",
+          "text_ar": "نمو الشعر المفرط أو تساقط الشعر"
+        },
+        {
+          "text_en": "Severe acne that won't improve",
+          "text_ar": "حب الشباب الشديد الذي لا يتحسن"
+        },
+        {
+          "text_en": "Unexplained weight gain",
+          "text_ar": "زيادة الوزن غير المبررة"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "endometriosis",
+      "title_en": "Endometriosis",
+      "title_ar": "انتباذ بطانة الرحم",
+      "description_en": "Endometriosis is a condition where tissue similar to the uterine lining grows outside the uterus. This tissue responds to hormonal changes during your menstrual cycle, causing pain, inflammation, and sometimes fertility issues. It takes an average of 11+ years to diagnose in the Arab world.",
+      "description_ar": "الانتباذ البطاني الرحمي هو حالة ينمو فيها نسيج مشابه لبطانة الرحم خارج الرحم. يستجيب هذا النسيج للتغيرات الهرمونية خلال الدورة الشهرية، مما يسبب الألم والالتهاب وأحيانًا مشاكل في الخصوبة. يستغرق التشخيص في المتوسط أكثر من 11 عامًا في العالم العربي.",
+      "prevalence_stat_en": "11+ years to diagnose",
+      "prevalence_stat_ar": "+١١ سنة للتشخيص",
+      "symptoms": [
+        {
+          "name_en": "Severe menstrual cramps (dysmenorrhea)",
+          "name_ar": "تشنجات شديدة أثناء الدورة الشهرية"
+        },
+        {
+          "name_en": "Chronic pelvic pain",
+          "name_ar": "ألم مزمن في الحوض"
+        },
+        {
+          "name_en": "Pain during or after intercourse",
+          "name_ar": "ألم أثناء أو بعد العلاقة الحميمة"
+        },
+        {
+          "name_en": "Heavy or irregular bleeding",
+          "name_ar": "نزيف غزير أو غير منتظم"
+        },
+        {
+          "name_en": "Pain during bowel movements or urination",
+          "name_ar": "ألم أثناء التبرز أو التبول"
+        },
+        {
+          "name_en": "Fatigue and low energy",
+          "name_ar": "إرهاق وانخفاض الطاقة"
+        },
+        {
+          "name_en": "Bloating and digestive issues",
+          "name_ar": "انتفاخ ومشاكل هضمية"
+        },
+        {
+          "name_en": "Difficulty getting pregnant",
+          "name_ar": "صعوبة في الحمل"
+        }
+      ],
+      "risk_factors": [
+        {
+          "text_en": "Family history of endometriosis",
+          "text_ar": "تاريخ عائلي للانتباذ البطاني الرحمي"
+        },
+        {
+          "text_en": "Never having given birth",
+          "text_ar": "عدم الإنجاب أبدًا"
+        },
+        {
+          "text_en": "Starting periods at an early age",
+          "text_ar": "بدء الدورة الشهرية في سن مبكرة"
+        },
+        {
+          "text_en": "Short menstrual cycles",
+          "text_ar": "دورات شهرية قصيرة"
+        },
+        {
+          "text_en": "Heavy periods lasting more than 7 days",
+          "text_ar": "دورات غزيرة تستمر أكثر من 7 أيام"
+        },
+        {
+          "text_en": "Low body mass index (BMI)",
+          "text_ar": "مؤشر كتلة الجسم المنخفض"
+        }
+      ],
+      "treatments": [
+        {
+          "text_en": "Pain medications (NSAIDs)",
+          "text_ar": "مسكنات الألم (مضادات الالتهاب)"
+        },
+        {
+          "text_en": "Hormonal contraceptives",
+          "text_ar": "موانع الحمل الهرمونية"
+        },
+        {
+          "text_en": "Gonadotropin-releasing hormone (GnRH) agonists",
+          "text_ar": "ناهضات الهرمون المطلق لموجهة الغدد التناسلية"
+        },
+        {
+          "text_en": "Laparoscopic surgery to remove tissue",
+          "text_ar": "جراحة المنظار لإزالة الأنسجة"
+        },
+        {
+          "text_en": "Fertility treatments if needed",
+          "text_ar": "علاجات الخصوبة عند الحاجة"
+        },
+        {
+          "text_en": "Complementary therapies (heat, TENS)",
+          "text_ar": "العلاجات التكميلية (الحرارة، التحفيز الكهربائي)"
+        }
+      ],
+      "when_to_doctor": [
+        {
+          "text_en": "Pain that disrupts daily activities",
+          "text_ar": "ألم يعطل الأنشطة اليومية"
+        },
+        {
+          "text_en": "Pain medications don't help anymore",
+          "text_ar": "مسكنات الألم لم تعد تساعد"
+        },
+        {
+          "text_en": "Heavy bleeding that soaks through pads",
+          "text_ar": "نزيف غزير يخترق الفوط الصحية"
+        },
+        {
+          "text_en": "Trying to conceive for 6+ months",
+          "text_ar": "محاولة الحمل لأكثر من 6 أشهر"
+        },
+        {
+          "text_en": "Severe fatigue affecting your life",
+          "text_ar": "إرهاق شديد يؤثر على حياتك"
+        }
+      ]
+    }
+  ],
+  "symptoms": [
+    {
+      "id": 1,
+      "slug": "painful_periods",
+      "name_en": "Painful Periods",
+      "name_ar": "دورة شهرية مؤلمة"
+    },
+    {
+      "id": 2,
+      "slug": "heavy_bleeding",
+      "name_en": "Heavy Bleeding",
+      "name_ar": "نزيف غزير"
+    },
+    {
+      "id": 3,
+      "slug": "irregular_cycles",
+      "name_en": "Irregular Cycles",
+      "name_ar": "دورات غير منتظمة"
+    },
+    {
+      "id": 4,
+      "slug": "hormonal_acne",
+      "name_en": "Hormonal Acne",
+      "name_ar": "حب الشباب الهرموني"
+    },
+    {
+      "id": 5,
+      "slug": "excess_hair",
+      "name_en": "Excess Hair Growth",
+      "name_ar": "نمو الشعر الزائد"
+    },
+    {
+      "id": 6,
+      "slug": "chronic_fatigue",
+      "name_en": "Chronic Fatigue",
+      "name_ar": "إرهاق مزمن"
+    },
+    {
+      "id": 7,
+      "slug": "pelvic_pain",
+      "name_en": "Pelvic Pain",
+      "name_ar": "ألم الحوض"
+    },
+    {
+      "id": 8,
+      "slug": "weight_changes",
+      "name_en": "Weight Changes",
+      "name_ar": "تغيرات الوزن"
+    },
+    {
+      "id": 9,
+      "slug": "hair_loss",
+      "name_en": "Hair Loss",
+      "name_ar": "تساقط الشعر"
+    },
+    {
+      "id": 10,
+      "slug": "mood_swings",
+      "name_en": "Mood Swings",
+      "name_ar": "تقلبات المزاج"
+    },
+    {
+      "id": 11,
+      "slug": "bloating",
+      "name_en": "Bloating",
+      "name_ar": "انتفاخ"
+    },
+    {
+      "id": 12,
+      "slug": "fertility_concerns",
+      "name_en": "Fertility Concerns",
+      "name_ar": "مخاوف الخصوبة"
+    }
+  ],
+  "health_stats": [
+    {
+      "id": 1,
+      "key": "pcos_prevalence",
+      "value": "1 in 5",
+      "label_en": "PCOS Prevalence",
+      "label_ar": "انتشار متلازمة تكيس المبايض",
+      "description_en": "Gulf women affected by PCOS — the highest rate in the world",
+      "description_ar": "نساء الخليج المصابات بمتلازمة تكيس المبايض — أعلى معدل في العالم"
+    },
+    {
+      "id": 2,
+      "key": "pain_dismissed",
+      "value": "73%",
+      "label_en": "Pain Dismissed",
+      "label_ar": "تجاهل الألم",
+      "description_en": "of women were told their pain is \"just cramps\" by family or a doctor",
+      "description_ar": "من النساء قيل لهن أن ألمهن \"مجرد تشنجات\" من قبل العائلة أو الطبيب"
+    },
+    {
+      "id": 3,
+      "key": "diagnosis_delay",
+      "value": "11+ years",
+      "label_en": "Diagnosis Delay",
+      "label_ar": "تأخير التشخيص",
+      "description_en": "the average time it takes to get an endometriosis diagnosis in the Arab world",
+      "description_ar": "متوسط الوقت المستغرق للحصول على تشخيص الانتباذ البطاني الرحمي في العالم العربي"
+    }
+  ]
+}
