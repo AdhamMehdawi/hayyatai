@@ -97,19 +97,25 @@
 }
 
 [data-theme="dark"] .bothered {
-  background: #2A1320;
+  background: #2D1D25;
+  color: #F5EDE8;
 }
 
 [data-theme="dark"] .condition-badge {
-  background: #2A1320;
-  color: #FCF5EE;
-  border-color: rgba(197, 165, 166, 0.3);
+  background: #2D1D25;
+  color: #E5B8BA;
+  border-color: rgba(229, 184, 186, 0.4);
 }
 
 [data-theme="dark"] .condition-badge:hover {
-  background: #6D2E46;
-  color: #FCF5EE;
-  border-color: #6D2E46;
+  background: #8B4F66;
+  color: #FFFFFF;
+  border-color: #8B4F66;
+}
+
+[data-theme="dark"] .condition-number-badge {
+  background: #A3687D;
+  color: #FFFFFF;
 }
 
 [data-theme="dark"] .condition-badge-primary {
@@ -2598,7 +2604,7 @@ footer {
   border-bottom: 2px solid rgba(109, 46, 70, 0.1);
 }
 
-.condition-badge {
+.condition-number-badge {
   width: 48px;
   height: 48px;
   background: var(--wine);
@@ -2868,7 +2874,7 @@ footer {
     padding: 1.5rem;
   }
 
-  .condition-badge {
+  .condition-number-badge {
     width: 40px;
     height: 40px;
     font-size: 1.2rem;

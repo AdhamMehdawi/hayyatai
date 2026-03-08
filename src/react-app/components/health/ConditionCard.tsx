@@ -90,7 +90,7 @@ function ConditionCard({ condition, index }: ConditionCardProps) {
   return (
     <div className="condition-card" style={{ animationDelay: `${index * 0.1}s` }}>
       <div className="condition-header">
-        <div className="condition-badge">{index + 1}</div>
+        <div className="condition-number-badge">{index + 1}</div>
         <div className="condition-titles">
           <h3>{isArabic ? condition.title_ar : condition.title_en}</h3>
           <div className="condition-subtitle">
