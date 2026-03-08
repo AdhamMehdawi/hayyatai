@@ -16,13 +16,13 @@
     "tagline": "Hayyat — because you deserve to be heard",
     "ctaPrimary": "Join the Waitlist →",
     "ctaSecondary": "See How It Works",
-    "chatWelcome": "هلا 💛 قوليلي كيف حالك هالفترة؟ صوت أو كتابة — عادي، كلميني بالعربي.",
-    "chatUser1": "والله من زمان عندي ألم وقت الدورة بس أمي قالت عادي",
-    "chatAi2": "الألم اللي يوقف يومك مو شي لازم تتقبلينه. قوليلي أكثر؟",
-    "chatChip1": "⚠️ تم رصد تطبيع الألم",
-    "chatUser2": "وبشرتي صارت حبوب كثير وشعري يطيح",
-    "chatAi3": "سجّلت تغيرات البشرة وتساقط الشعر — خلينا نتأكد إن دكتورك يشوف الصورة كاملة.",
-    "chatChip2": "✓ تم تسجيل ٥ أعراض"
+    "chatWelcome": "Hi 💛 How have you been feeling lately? Voice or text — no problem, talk to me in your language.",
+    "chatUser1": "Honestly I've had period pain for a long time but my mom said it's normal",
+    "chatAi2": "Pain that stops your day isn't something you should accept. Tell me more?",
+    "chatChip1": "⚠️ Pain normalization detected",
+    "chatUser2": "And my skin has a lot of acne and my hair is falling out",
+    "chatAi3": "I've logged skin changes and hair loss — let's make sure your doctor sees the full picture.",
+    "chatChip2": "✓ 5 symptoms logged"
   },
   "understand": {
     "quoteAr": "كل البنات كذا... عادي",
