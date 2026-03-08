@@ -14,6 +14,7 @@
 	"dependencies": {
 		"hono": "4.11.1",
 		"i18next": "^25.8.14",
+		"posthog-js": "^1.359.1",
 		"react": "19.2.1",
 		"react-dom": "19.2.1",
 		"react-i18next": "^16.5.4",
