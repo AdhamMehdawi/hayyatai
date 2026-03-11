@@ -65,7 +65,7 @@ Sent from Hayyat Contact Form
 
     // Send email using Resend
     const data = await resend.emails.send({
-      from: 'Hayyat Contact Form <onboarding@resend.dev>', // This will be updated once domain is verified
+      from: 'Hayyat Contact Form <contact@hayyat.ai>', // This will be updated once domain is verified
       to: ['info@hayyat.ai'],
       replyTo: body.email,
       subject: `Hayyat Contact: ${body.subject}`,
