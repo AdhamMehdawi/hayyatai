@@ -5,6 +5,7 @@ import PostHogProvider from './providers/PostHogProvider';
 import Layout from './components/common/Layout';
 import HomePage from './pages/Home';
 import HealthLibraryPage from './pages/HealthLibrary';
+import ContactPage from './pages/Contact';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/health-library" element={<HealthLibraryPage />} />
+              <Route path="/contact" element={<ContactPage />} />
             </Routes>
           </Layout>
         </BrowserRouter>

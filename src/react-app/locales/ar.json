@@ -286,5 +286,30 @@
     "privacy": "الخصوصية",
     "terms": "الشروط",
     "linkedin": "لينكد إن"
+  },
+  "contact": {
+    "title": "تواصلي معنا",
+    "subtitle": "عندك أسئلة؟ تبين تنضمين لقائمة الانتظار؟ نحب نسمع منك.",
+    "form": {
+      "name": "الاسم الكامل",
+      "namePlaceholder": "أدخلي اسمك",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "your@email.com",
+      "phone": "رقم الجوال (اختياري)",
+      "phonePlaceholder": "+٩٧٤ XXXX XXXX",
+      "subject": "الموضوع",
+      "subjectPlaceholder": "عن شنو تبين تتكلمين؟",
+      "message": "الرسالة",
+      "messagePlaceholder": "قوليلنا أكثر...",
+      "submit": "إرسال الرسالة",
+      "sending": "جاري الإرسال...",
+      "success": "شكراً! نتواصل معاكِ قريباً.",
+      "error": "في شي غلط. حاولي مرة ثانية."
+    },
+    "info": {
+      "email": "info@hayyat.ai",
+      "location": "الدوحة، قطر",
+      "availability": "عادة نرد خلال ٢٤ ساعة"
+    }
   }
 }

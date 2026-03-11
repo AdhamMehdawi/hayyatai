@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   const { t } = useTranslation();
@@ -8,7 +9,7 @@ function Footer() {
       <div className="footer-inner">
         <div className="footer-l">
           {t('footer.copyright')}{" "}
-          <a href="mailto:info@hayyat.ai">{t('footer.contact')}</a>
+          <Link to="/contact">{t('footer.contact')}</Link>
         </div>
         <div className="footer-r">
           <a href="#">{t('footer.privacy')}</a>

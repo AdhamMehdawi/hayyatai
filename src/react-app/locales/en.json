@@ -286,5 +286,30 @@
     "privacy": "Privacy",
     "terms": "Terms",
     "linkedin": "LinkedIn"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions? Want to join the waitlist? We'd love to hear from you.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone Number (Optional)",
+      "phonePlaceholder": "+974 XXXX XXXX",
+      "subject": "Subject",
+      "subjectPlaceholder": "What is this about?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us more...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! We'll get back to you soon.",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": {
+      "email": "info@hayyat.ai",
+      "location": "Doha, Qatar",
+      "availability": "We typically respond within 24 hours"
+    }
   }
 }

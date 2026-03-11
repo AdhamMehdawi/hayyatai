@@ -32,6 +32,12 @@
   color: #FCF5EE;
 }
 
+[data-theme="dark"] button,
+[data-theme="dark"] .pill,
+[data-theme="dark"] .pill-primary {
+  color: #FFFFFF !important;
+}
+
 [data-theme="dark"] .hero,
 [data-theme="dark"] .conditions,
 [data-theme="dark"] .learn-conditions,

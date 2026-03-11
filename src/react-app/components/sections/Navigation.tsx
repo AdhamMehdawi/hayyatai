@@ -69,9 +69,9 @@ function Navigation() {
           {t('nav.stories')}
         </a>
         <LanguageSwitcher />
-        <a href="#join" onClick={(e) => { e.preventDefault(); scrollToSection('join'); }} className="pill pill-primary">
+        <Link to="/contact" className="pill pill-primary">
           {t('nav.joinWaitlist')}
-        </a>
+        </Link>
       </div>
     </nav>
   );

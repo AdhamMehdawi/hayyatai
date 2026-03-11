@@ -1,7 +1,9 @@
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
 function FinalCTA() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   return (
     <section className="final-cta" id="join">
@@ -48,13 +50,13 @@ function FinalCTA() {
         >
           {t('finalCta.description')}
         </p>
-        <a
-          href="mailto:info@hayyat.ai?subject=Hayyat%20Waitlist&body=I'd%20like%20to%20join%20the%20Hayyat%20waitlist."
+        <button
+          onClick={() => navigate('/contact')}
           className="pill pill-primary"
-          style={{ fontSize: "0.95rem", padding: "0.75rem 2.2rem" }}
+          style={{ fontSize: "0.95rem", padding: "0.75rem 2.2rem", cursor: "pointer" }}
         >
           {t('finalCta.cta')}
-        </a>
+        </button>
         <p
           style={{
             fontSize: "0.72rem",
