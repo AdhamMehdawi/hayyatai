@@ -5,8 +5,11 @@ import '../styles/Contact.css';
 interface FormData {
   name: string;
   email: string;
-  subject: string;
-  message: string;
+}
+
+interface ValidationErrors {
+  name: boolean;
+  email: boolean;
 }
 
 interface FormStatus {
@@ -20,20 +23,40 @@ function ContactPage() {
 
   const [formData, setFormData] = useState<FormData>({
     name: '',
-    email: '',
-    subject: '',
-    message: ''
+    email: ''
   });
 
   const [status, setStatus] = useState<FormStatus>({ type: 'idle' });
+  const [errors, setErrors] = useState<ValidationErrors>({
+    name: false,
+    email: false
+  });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
+    // Clear error when user starts typing
+    if (errors[name as keyof ValidationErrors]) {
+      setErrors(prev => ({ ...prev, [name]: false }));
+    }
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    // Validate form
+    const newErrors: ValidationErrors = {
+      name: !formData.name.trim(),
+      email: !formData.email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)
+    };
+
+    setErrors(newErrors);
+
+    // If there are errors, don't submit
+    if (newErrors.name || newErrors.email) {
+      return;
+    }
+
     setStatus({ type: 'loading' });
 
     try {
@@ -57,9 +80,7 @@ function ContactPage() {
       // Reset form
       setFormData({
         name: '',
-        email: '',
-        subject: '',
-        message: ''
+        email: ''
       });
 
       // Clear success message after 5 seconds
@@ -98,7 +119,7 @@ function ContactPage() {
           <div className="contact-grid">
             {/* Contact Form */}
             <div className="contact-form-wrapper">
-              <form className="contact-form" onSubmit={handleSubmit} dir={isRTL ? 'rtl' : 'ltr'}>
+              <form className="contact-form" onSubmit={handleSubmit} dir={isRTL ? 'rtl' : 'ltr'} noValidate>
                 <div className="form-group">
                   <label htmlFor="name">{t('contact.form.name')}</label>
                   <input
@@ -108,7 +129,7 @@ function ContactPage() {
                     value={formData.name}
                     onChange={handleChange}
                     placeholder={t('contact.form.namePlaceholder')}
-                    required
+                    className={errors.name ? 'input-error' : ''}
                   />
                 </div>
 
@@ -121,33 +142,7 @@ function ContactPage() {
                     value={formData.email}
                     onChange={handleChange}
                     placeholder={t('contact.form.emailPlaceholder')}
-                    required
-                  />
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="subject">{t('contact.form.subject')}</label>
-                  <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    placeholder={t('contact.form.subjectPlaceholder')}
-                    required
-                  />
-                </div>
-
-                <div className="form-group">
-                  <label htmlFor="message">{t('contact.form.message')}</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    placeholder={t('contact.form.messagePlaceholder')}
-                    rows={6}
-                    required
+                    className={errors.email ? 'input-error' : ''}
                   />
                 </div>
 

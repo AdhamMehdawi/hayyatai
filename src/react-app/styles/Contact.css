@@ -71,7 +71,7 @@
   border: 2px solid var(--rose);
   border-radius: 0.5rem;
   background: rgba(255, 255, 255, 0.02);
-  color: var(--text-primary, #fff);
+  color: #333;
   font-family: 'Noto Kufi Arabic', sans-serif;
   transition: all 0.3s ease;
 }
@@ -88,6 +88,12 @@
 .form-group input::placeholder,
 .form-group textarea::placeholder {
   color: var(--warm-gray);
+}
+
+.form-group input.input-error,
+.form-group textarea.input-error {
+  border-color: #f44336;
+  border-width: 2px;
 }
 
 .form-group textarea {
@@ -208,6 +214,7 @@
   background: rgba(255, 255, 255, 0.03);
   border-color: var(--rose);
   border-width: 2px;
+  color: #fff;
 }
 
 [data-theme="dark"] .submit-btn {

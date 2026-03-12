@@ -10,8 +10,6 @@ const contact = new Hono<{ Bindings: Bindings }>();
 interface ContactFormData {
   name: string;
   email: string;
-  subject: string;
-  message: string;
 }
 
 contact.post('/', async (c) => {
@@ -19,7 +17,7 @@ contact.post('/', async (c) => {
     const body = await c.req.json<ContactFormData>();
 
     // Validate required fields
-    if (!body.name || !body.email || !body.subject || !body.message) {
+    if (!body.name || !body.email) {
       return c.json(
         { error: 'Missing required fields' },
         400
@@ -50,25 +48,21 @@ contact.post('/', async (c) => {
 
     // Build email content
     const emailContent = `
-New contact form submission from Hayyat website:
+New waitlist request from Hayyat website:
 
 Name: ${body.name}
 Email: ${body.email}
-Subject: ${body.subject}
-
-Message:
-${body.message}
 
 ---
-Sent from Hayyat Contact Form
+Sent from Hayyat Waitlist Form
     `.trim();
 
     // Send email using Resend
     const data = await resend.emails.send({
-      from: 'Hayyat Contact Form <contact@hayyat.ai>', // This will be updated once domain is verified
+      from: 'Hayyat Waitlist <contact@hayyat.ai>', // This will be updated once domain is verified
       to: ['info@hayyat.ai'],
       replyTo: body.email,
-      subject: `Hayyat Contact: ${body.subject}`,
+      subject: `Hayyat Waitlist: ${body.name}`,
       text: emailContent,
     });
 
