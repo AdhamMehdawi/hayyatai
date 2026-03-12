@@ -177,12 +177,6 @@ function ContactPage() {
               </div>
 
               <div className="info-card">
-                <div className="info-icon">📍</div>
-                <h3>{isRTL ? 'الموقع' : 'Location'}</h3>
-                <p>{t('contact.info.location')}</p>
-              </div>
-
-              <div className="info-card">
                 <div className="info-icon">⏰</div>
                 <h3>{isRTL ? 'وقت الرد' : 'Response Time'}</h3>
                 <p>{t('contact.info.availability')}</p>
